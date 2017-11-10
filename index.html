@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NYT Search</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+
+    <!--Container-->
+    <div class="container">
+        <div class="jumbotron" id=jumbo1>
+
+            <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search</h1>
+
+        </div>
+
+        <br>
+
+        <!--First Panel-->
+        <div class="panel panel-default">
+            <!--Heading-->
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list-alt" aria-hidden="true"></i> Search Parameters</h3>
+            </div>
+
+            <!--panel body-->
+            <div class="panel-body">
+                <!--Search Term-->
+                <h5>Search Term:</h5>
+                <div class="input-group">
+
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control param" id="firstInput" aria-describedby="basic-addon1">
+                </div>
+
+                <!--number of records to retrieve-->
+                <h5>Number of records to retrieve:</h5>
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <select class="form-control" id="numRecordsSelect">
+                            <option value=""></option>
+							<option value="1">1</option>
+							<!-- Setting the option for 5 as default -->
+							<option value="5" selected="">5</option>
+							<option value="10">10</option>
+						</select>
+
+                </div>
+
+                <!--Start Year-->
+                <h5>Start Year:</h5>
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control param" id="secondInput" aria-describedby="basic-addon1">
+                </div>
+
+                <!--End Year-->
+                <h5>End Year:</h5>
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"></span>
+                    <input type="text" class="form-control param" id="thirdInput" aria-describedby="basic-addon1">
+                </div>
+
+                <br>
+
+                <!--Search buttton-->
+                <button type="button" class="btn btn-primary" id="search"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+
+                <!--Clear button-->
+                <button type="button" class="btn btn-primary" id="clear"><i class="fa fa-trash" aria-hidden="true"></i> Clear</button>
+
+
+
+            </div>
+            <!--End of first panel body-->
+        </div>
+        <!--end of first panel-->
+
+        <br>
+
+        <!--Second panel-->
+
+        <div class="panel panel-default">
+            <!--Heading-->
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-table" aria-hidden="true"></i> Top Articles</h3>
+            </div>
+
+            <!--Panel Body-->
+            <div class="panel-body">
+
+                <!--Beging Well-->
+                <div class="well well-lg">
+
+                    <span class="title"><h3>Title</h3></span>
+                    <span class="info"><p> hahahhahahahha </p>
+                    <p> hahahhahahahha </p>
+                    <p> hahahhahahahha </p></span>
+                    <br>
+                    <span><a href="https://www.nytimes.com" target="_blank" >Visit NY Times!</a></span>
+
+
+
+
+                </div>
+                <!--end well-->
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--end container-->
+    <!-- ******** add class="param" to all fields -->
+    <script src="engine.js"></script>
+
+</body>
+
+</html>
