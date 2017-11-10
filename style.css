@@ -1,0 +1,33 @@
+#jumbo1 {
+    background-color: #20315a;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.panel-title {
+
+    /*background-color: #2c3e50;*/
+    color: white;
+
+
+}
+
+.panel-heading {}
+
+h3 {
+    /*background-color: black;*/
+    /*color: white;*/
+    /*font-size: 8px;*/
+}
+
+.info {
+    line-height: 20px;
+}
+
+/*.panel-default>.panel-heading {*/
+
+/*    background-color: #2c3e50;*/
+
+/*}*/
